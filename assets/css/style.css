@@ -135,3 +135,88 @@ body {
     background: #4aaaa5;
     border-bottom: 0;
   }
+
+  /*Could not complete sticky footer, scrolling and comments.*/
+  
+  @media (max-width: 980px) {
+       .links {
+           margin: 0px -200px;
+        }
+        .header {
+           margin: -19px -200px;
+        }
+        
+        .container {
+            margin: 10px 40px;
+        }
+        
+        .section {
+            width: 600px;
+        }
+        #p {
+            font-size: 1rem;
+            line-height: 1.5em;
+        }
+
+    }
+  
+  @media (max-width: 768px) {
+    .links {
+        margin: 0px -220px;
+     }
+     .header {
+        margin: -19px -220px;
+     }
+     
+     .container {
+         margin: 5px 20px;
+     }
+     
+     .section {
+         width: 725px;
+     }
+     #p {
+         font-size: 1rem;
+         line-height: 1.5em;
+     }
+
+  }
+  
+  @media (max-width: 640px) {
+    .nav {
+        padding: 20px 20px 80px 20px;
+    }
+    
+    .header {
+     margin: -19px;
+     width: 640px;
+    position: static;
+    
+    }
+    
+    .links {
+        margin: 30px -220px;
+        width: 100%;
+    }  
+     
+    .container {
+        width: 600px;
+    }
+        
+     .section {
+         width: 600px;
+         margin-top: 10px;
+     }
+     #p {
+         font-size: 0.95rem;
+         line-height: 1.5em;
+     }
+  
+     #img {
+         clear: both;
+         float: none;
+         height: 200px;
+         width: 200px;
+         margin: 0px 10px;
+        }
+    }
